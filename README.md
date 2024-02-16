@@ -3,3 +3,8 @@
 ```
 dotnet new lambda.EmptyFunction --name myDotnetFunction
 ```
+
+## Included services
+- GraphQL
+    - Hot chocolate
+- MongoDB
