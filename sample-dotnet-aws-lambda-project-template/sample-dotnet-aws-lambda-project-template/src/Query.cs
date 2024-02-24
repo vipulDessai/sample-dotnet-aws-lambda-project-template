@@ -1,12 +1,11 @@
-﻿using System.Net;
-using System.Text.Json;
-using Amazon.Lambda.APIGatewayEvents;
-using HotChocolate;
+﻿using Amazon.Lambda.APIGatewayEvents;
 using HotChocolate.Authorization;
 using Microsoft.AspNetCore.Http;
 using MongoDB.Driver;
 using sample_dotnet_aws_lambda_project_template.Models;
 using sample_dotnet_aws_lambda_project_template.services;
+using System.Net;
+using System.Text.Json;
 
 namespace sample_dotnet_aws_lambda_project_template;
 

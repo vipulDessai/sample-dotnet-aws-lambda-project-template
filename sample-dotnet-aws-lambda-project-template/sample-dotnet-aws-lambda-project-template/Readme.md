@@ -1,3 +1,28 @@
+# Refer
+- Authenticate and authorize the graph ql query/mutation using hot choclate - <b style="color: green">DONE</b>
+    - [authentication tutorial](https://medium.com/@marcinjaniak/graphql-simple-authorization-and-authentication-with-hotchocolate-11-and-asp-net-core-3-162e0a35743d)
+- enable cors - currently enabled from API server directly - <b style="color: green">DONE</b>
+    - [serverless httpapi config](https://www.serverless.com/framework/docs/providers/aws/events/http-api)
+    - [stack overflow issue cors](https://stackoverflow.com/questions/66000642/httpapi-serverless-framework-api-gateway-cors-not-working)
+    - [AWS cors note](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-cors.html)
+- serverless.yml setup
+    - configs
+        - [multiple httpApi route configs](https://forum.serverless.com/t/multiple-request-methods-for-a-single-httpapi-route/15721/5)
+- secure api
+    - use password hash (something like bcrypt js)
+    - use TOTP 
+      - [tutorial link](https://medium.com/techvraksh/setup-2fa-using-totp-in-your-app-347e8ff7ad4d)
+      - [stack overflow](https://stackoverflow.com/questions/53413527/is-there-a-google-authenticator-api)
+- Setup git action pipeline for building and deploying the project
+    - using node and dotnet - [link](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net)
+    - setup pre commit
+    - git hooks
+- graphql for lambda - <b style="color: green">DONE</b>
+    - [Link 1](https://dev.to/memark/running-a-graphql-api-in-net-6-on-aws-lambda-17oc)
+    - Graph QL setup for dotnet core web api
+        - [Article 1](https://medium.com/@TimHolzherr/creating-a-graphql-backend-in-c-how-to-get-started-with-hot-chocolate-12-in-net-6-30f0fb177c5c) - implementation in progress
+        - [Article 2](https://www.c-sharpcorner.com/article/building-api-in-net-core-with-graphql2/) - for reference only
+
 # AWS Lambda Empty Function Project
 
 This starter project consists of:
